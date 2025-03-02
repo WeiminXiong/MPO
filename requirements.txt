@@ -25,3 +25,4 @@ uvicorn==0.31.1
 alfworld==0.3.5
 vllm==0.6.6.post1
 transformers==4.47.1
+gdown

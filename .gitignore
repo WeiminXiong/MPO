@@ -170,10 +170,12 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 configs_before/
-data/
+data/alfworld/
+data/sciworld/
 unseen/
 seen/
 logs/
 scripts/samples/
 env_libs/
 upload.py
+*.gz
