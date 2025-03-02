@@ -1,0 +1,10 @@
+{
+    "agent_class": "OpenAIAgent",
+    "config": {
+        "api_base": "http://localhost:8000/v1",
+        "api_key": "EMPTY",
+        "model_name": "Llama-3.1-8B-Instruct",
+        "max_completion_tokens": 512,
+        "temperature": 0.8
+    }
+}

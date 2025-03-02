@@ -1,0 +1,10 @@
+{
+    "agent_class": "OpenAIAgent",
+    "config": {
+        "api_base": "YOUR_API_BASE",
+        "api_key": "YOUR_API_KEY",
+        "model_name": "gpt-4o",
+        "max_tokens": 512,
+        "temperature": 0.0
+    }
+}

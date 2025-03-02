@@ -1,0 +1,15 @@
+{
+    "task": {
+        "task_class": "SciWorldTask",
+        "filepath": "data/sciworld"
+    },
+    "env_config": {
+        "env_class": "SciWorldEnv",
+        "instruction_path": "prompt/instructions/sciworld_inst.txt",
+        "env_jar_path": "env_libs/scienceworld/scienceworld.jar",
+        "icl_path": "prompt/icl_examples/sciworld_icl.json",
+        "icl_format": "first",
+        "max_steps": 30
+    },
+    "output_dir": "outputs/sciworld"
+}
