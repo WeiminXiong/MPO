@@ -94,5 +94,4 @@ There are eight main folders in this project: `agents`, `configs`, `data`, `envs
 If you find this repo helpful, please cite out paper:
 
 ```
-soon
 ```
