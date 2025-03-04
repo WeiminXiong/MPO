@@ -1,10 +1,22 @@
-# Boosting LLM Agents with Meta Plan Optimization
-</div> 
+<h1 align="center">
+<img src="assets/planner.png" width="100" alt="rho-logo" />
+<br>
+Boosting LLM Agents with Meta Plan Optimization
+</h1>
+
 <div align="center">
-<a href=""><img src="assets/paper-page-xl.svg" alt="Paper page"></a>
-<a href="https://huggingface.co/datasets/xwm/Meta_Plan_Optimization"><img src="assets/dataset-on-hf-xl.svg" alt="Dataset on HF"></a>
-<a href="https://huggingface.co/xwm/sciworld_workflow_mpo"><img src="assets/model-on-hf-xl.svg" alt="Model on HF"></a>
+
+![](https://img.shields.io/badge/Paper-arXiv-red)
+![](https://img.shields.io/badge/Model-Released-blue)
+![](https://img.shields.io/badge/Code%20License-Apache%202.0-green)
+
 </div>
+
+<p align="center">
+  <a href=""><b>[📜 Arxiv]</b></a> •
+  <a href="https://huggingface.co/xwm/ALFWorld-MPO"><b>[🤗 Models]</b></a> •
+  <a href="https://github.com/WeiminXiong/MPO"><b>[🐱 GitHub]</b></a>
+</p>
 
 This repository contains the code for the paper "Boosting LLM Agents with Meta Plan Optimization"
 
@@ -15,24 +27,12 @@ This repository contains the code for the paper "Boosting LLM Agents with Meta P
 In this work, we introduce the **Meta Plan Optimization (MPO)** framework, designed to enhance agent planning capabilities by directly integrating explicit guidance. Unlike previous methods that depend on complex knowledge—often requiring extensive human effort or lacking quality assurance—MPO leverages high-level general guidance through meta plans. This approach not only assists agents in planning but also enables continuous optimization of meta plans based on feedback from the agent's task execution.  
 
 
-## 🧩 Structure of This Project
-There are eight main folders in this project: `agents`, `configs`, `data`, `envs`, `prompt`, `scripts`, `tasks`, `utils`.
+## 🔥 News
 
-`agents`: code for the agents
-
-`configs`: configuration files for the experiments
-
-`data`: data for the experiments
-
-`envs`: code for the environments
-
-`prompt`: prompt templates
-
-`scripts`: script for dataset construction and meta plan generation
-
-`tasks`: code for the tasks
-
-`utils`: utility functions
+- [2025/03/06] 🔥🔥🔥 MPO-optimized meta planner released at 🤗 HuggingFace! 
+    - Llama-3.1-70B-Instruct, enhanced with the MPO-optimized meta planner ([ALFWorld-MPO](https://huggingface.co/xwm/ALFWorld-MPO) and [SciWorld-MPO](https://huggingface.co/xwm/SciWorld-MPO)), achieved an average accuracy of 83.1 on ALFWorld and SciWorld, setting a new state-of-the-art (SOTA) performance.
+    - Llama-3.1-8B-Instruct + MPO achieved an average performance of 53.6, outperforming GPT-4o-mini by a significant margin with a 30.1% improvement.
+- [2025/03/04] MPO paper and repo released.
 
 
 ## 🛠️ Setup
@@ -70,9 +70,29 @@ The script performs the following steps:
 
 For more details about the dataset construction, please refer to the `scripts` directory.
 
+## 🧩 Structure of This Project
+There are eight main folders in this project: `agents`, `configs`, `data`, `envs`, `prompt`, `scripts`, `tasks`, `utils`.
+
+`agents`: code for the agents
+
+`configs`: configuration files for the experiments
+
+`data`: data for the experiments
+
+`envs`: code for the environments
+
+`prompt`: prompt templates
+
+`scripts`: script for dataset construction and meta plan generation
+
+`tasks`: code for the tasks
+
+`utils`: utility functions
+
 ## 📖 Citation
 
 If you find this repo helpful, please cite out paper:
 
 ```
+soon
 ```
