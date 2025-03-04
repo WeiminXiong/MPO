@@ -14,6 +14,7 @@ Boosting LLM Agents with Meta Plan Optimization
 
 <p align="center">
   <a href=""><b>[📜 Arxiv]</b></a> •
+  <a href="https://huggingface.co/datasets/xwm/Meta_Plan_Optimization"><b>[🤗 Dataset]</b></a> •
   <a href="https://huggingface.co/xwm/ALFWorld-MPO"><b>[🤗 Models]</b></a> •
   <a href="https://github.com/WeiminXiong/MPO"><b>[🐱 GitHub]</b></a>
 </p>
@@ -32,6 +33,7 @@ In this work, we introduce the **Meta Plan Optimization (MPO)** framework, desig
 - [2025/03/06] 🔥🔥🔥 MPO-optimized meta planner released at 🤗 HuggingFace! 
     - Llama-3.1-70B-Instruct, enhanced with the MPO-optimized meta planner ([ALFWorld-MPO](https://huggingface.co/xwm/ALFWorld-MPO) and [SciWorld-MPO](https://huggingface.co/xwm/SciWorld-MPO)), achieved an average accuracy of 83.1 on ALFWorld and SciWorld, setting a new state-of-the-art (SOTA) performance.
     - Llama-3.1-8B-Instruct + MPO achieved an average performance of 53.6, outperforming GPT-4o-mini by a significant margin with a 30.1% improvement.
+- [2025/03/05] 🔥🔥🔥 The [dataset](https://huggingface.co/datasets/xwm/Meta_Plan_Optimization) for MPO released at 🤗 HuggingFace! 
 - [2025/03/04] MPO paper and repo released.
 
 
