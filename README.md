@@ -13,7 +13,7 @@ Boosting LLM Agents with Meta Plan Optimization
 </div>
 
 <p align="center">
-  <a href=""><b>[📜 Arxiv]</b></a> •
+  <a href="https://arxiv.org/pdf/2503.02682"><b>[📜 Arxiv]</b></a> •
   <a href="https://huggingface.co/datasets/xwm/Meta_Plan_Optimization"><b>[🤗 Dataset]</b></a> •
   <a href="https://huggingface.co/xwm/ALFWorld-MPO"><b>[🤗 Models]</b></a> •
   <a href="https://github.com/WeiminXiong/MPO"><b>[🐱 GitHub]</b></a>
@@ -96,4 +96,13 @@ There are eight main folders in this project: `agents`, `configs`, `data`, `envs
 If you find this repo helpful, please cite out paper:
 
 ```
+@misc{xiong2025mpoboostingllmagents,
+      title={MPO: Boosting LLM Agents with Meta Plan Optimization}, 
+      author={Weimin Xiong and Yifan Song and Qingxiu Dong and Bingchan Zhao and Feifan Song and Xun Wang and Sujian Li},
+      year={2025},
+      eprint={2503.02682},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2503.02682}, 
+}
 ```
