@@ -1,7 +1,7 @@
 <h1 align="center">
 <img src="assets/planner.png" width="100" alt="rho-logo" />
 <br>
-Boosting LLM Agents with Meta Plan Optimization
+MPO: Boosting LLM Agents with Meta Plan Optimization
 </h1>
 
 <div align="center">
@@ -19,7 +19,7 @@ Boosting LLM Agents with Meta Plan Optimization
   <a href="https://github.com/WeiminXiong/MPO"><b>[🐱 GitHub]</b></a>
 </p>
 
-This repository contains the code for the paper "Boosting LLM Agents with Meta Plan Optimization"
+This repository contains the code for the paper "MPO: Boosting LLM Agents with Meta Plan Optimization"
 
 <p align="center">
 <img src=assets/main.png width=700/>
