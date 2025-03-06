@@ -22,11 +22,16 @@ cleanup() {
 }
 trap cleanup SIGINT
 
+# Create log directory
+if [ ! -d "logs" ]; then
+    mkdir logs
+fi
+
 # Sample Metaplans
 echo "Start sampling metaplans..."
 CUDA_VISIBLE_DEVICES=0 vllm serve ${GENERATOR_SAVE_PATH}/${METAPLAN_GENERATOR} --port 8000 > logs/sample_metaplan_generator.log 2>&1 &
 sleep 60
-python scripts/generate_metaplan.py \
+python scripts/gen_metaplan.py \
     --task_type ${TASK_TYPE} \
     --input_file data/${TASK_TYPE}/${TASK_TYPE}_train_tasks.jsonl \
     --output_file samples/${TASK_TYPE}_metaplan_train_sampled.jsonl \

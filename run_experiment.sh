@@ -1,7 +1,7 @@
 # Task configuration
 TASK_TYPE="alfworld" # alfworld, sciworld
 TEST_MODEL="Llama-3.1-8B-Instruct" 
-METAPLAN_TYPE="none" # none, sft, rft, mpo
+METAPLAN_TYPE="mpo" # none, sft, rft, mpo
 INCORPORATION_TYPE="query" # query, observation, thought
 MODEL_PATH="/mnt/weimin/models" # the path to the model
 SPLIT="test" # test, dev
@@ -18,6 +18,11 @@ cleanup() {
 
 # Set up the trap to catch Ctrl-C (SIGINT)
 trap cleanup SIGINT
+
+# Create log directory
+if [ ! -d "logs" ]; then
+    mkdir logs
+fi
 
 # Serve the model
 if [[ $TEST_MODEL != *"gpt"* ]]; then
